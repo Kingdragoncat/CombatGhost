@@ -1,0 +1,6 @@
+name: CombatGhost
+version: '1.0-SNAPSHOT'
+main: net.mythofy.combatGhost.CombatGhost
+api-version: '1.20'
+authors: [ Kingdragoncat ]
+description: My first plugin!!!!
