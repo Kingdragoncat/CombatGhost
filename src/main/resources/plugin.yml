@@ -3,4 +3,19 @@ version: '1.0-SNAPSHOT'
 main: net.mythofy.combatGhost.CombatGhost
 api-version: '1.20'
 authors: [ Kingdragoncat ]
-description: My first plugin!!!!
+description: Combat logging prevention with ghost NPCs and WorldGuard integration
+depend: [Citizens, WorldGuard]
+commands:
+  combatghost:
+    description: Main command for CombatGhost plugin
+    usage: /<command> [reload]
+    permission: combatghost.reload
+    aliases: [cg]
+  cb:
+    description: CombatGhost skin and utility commands
+    usage: /<command> skin set <skin>
+    aliases: []
+permissions:
+  combatghost.reload:
+    description: Allows reloading the CombatGhost plugin
+    default: op

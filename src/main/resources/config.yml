@@ -1,0 +1,23 @@
+# CombatGhost Plugin Configuration
+
+# Duration (in seconds) a player remains tagged after combat
+combat-tag-duration: 15
+
+# Duration (in seconds) the ghost NPC remains after a player logs out in combat
+ghost-duration: 30
+
+# Default skin for ghost NPCs (player name or value)
+npc-default-skin: "Steve"
+
+# Allow players to set their ghost NPC skin
+allow-skin-set: true
+
+# List of WorldGuard region names players cannot enter while combat tagged
+restricted-regions:
+  - "safezone"
+  - "spawn"
+
+# List of item material names players cannot use while combat tagged
+restricted-items:
+  - "ENDER_PEARL"
+  - "GOLDEN_APPLE"
